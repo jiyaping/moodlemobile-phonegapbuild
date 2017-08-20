@@ -65706,7 +65706,7 @@ angular.module('mm.core')
 
 .constant('mmCoreConfigConstants', {
     "app_id" : "com.moodle.moodlemobile",
-    "appname": "Moodle Mobile",
+    "appname": "Moodle Mobile1",
     "desktopappname": "Moodle Desktop",
     "versioncode" : "2019",
     "versionname" : "3.3.1",
