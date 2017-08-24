@@ -458,6 +458,8 @@
     "mm.login.usernamerequired": "用户名必填",
     "mm.login.usernotaddederror": "用户未添加 —— 出错",
     "mm.login.webservicesnotenabled": "您的站点未开启网络服务。如果您觉得应当启用移动接入功能，请与站点管理员联系。",
+    "mm.login.connecttomoodle": "连接到系统",
+    "mm.login.newsitedescription": "请输入远程站点的地址，有疑问请咨询管理员。",
     "mm.question.answer": "答案",
     "mm.question.answersaved": "答案已保存",
     "mm.question.complete": "完成",
