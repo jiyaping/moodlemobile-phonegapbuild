@@ -425,7 +425,7 @@
     "mm.login.firsttime": "第一次来访吗？",
     "mm.login.getanothercaptcha": "获取另一个 CAPTCHA",
     "mm.login.help": "帮助",
-    "mm.login.helpmelogin": "<p>全世界有成千上万的Moodle站点。本APP只能连接那些启用移动APP接入功能的Moodle站点。</p><p>如果您无法连接该站点，请与相关站点管理员联系并请他们阅读以下文档<a href=\"http://docs.moodle.org/en/Mobile_app\" target=\"_blank\">http://docs.moodle.org/en/Mobile_app</a></p><p>想要在Moodle演示站点中测试本APP，请在<i>站点URL</i>栏中输入<i>teacher</i>或者<i>student</i>，并点击<b>添加按钮</b>。</p>",
+    "mm.login.helpmelogin": "<p>本应用为龙浩航空在线学习系统移动应用，基于Moodle二次开发。有任何问题可联系公司信息技术部。想了解更多也可访问moodle官方网站https://docs.moodle.org/</p>",
     "mm.login.instructions": "使用说明",
     "mm.login.invalidaccount": "请检查您的登录信息，或请您的网站管理员检查网站设置。",
     "mm.login.invalidemail": "Email地址无效",
