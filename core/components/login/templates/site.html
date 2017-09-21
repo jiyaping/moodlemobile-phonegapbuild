@@ -9,7 +9,7 @@
           <img ng-src="img/logo.png" class="avatar-full  moodle-logo" role="presentation">
         </div>
         <p class="padding">{{ 'mm.login.newsitedescription' | translate }}</p>
-        <div class="list item item-input" ng-init="siteurl='http://192.168.43.133/moodle';">
+        <div class="list item item-input" ng-init="siteurl='http://eln.airlonghao.com';">
           <input type="url" placeholder="{{ 'mm.login.siteaddress' | translate }}" ng-model="siteurl" mm-no-input-validation mm-auto-focus >
         </div>
         <button class="button button-block button-positive" ng-click="connect(siteurl)" ng-disabled="!siteurl">{{ 'mm.login.connect' | translate }}</button>
