@@ -3788,7 +3788,7 @@ angular.module('mm.core')
     });
     $translatePartialLoaderProvider.addPart('build/lang');
     var lang = mmCoreConfigConstants.default_lang || 'zh-cn';
-    $translateProvider.fallbackLanguage('zh-cn'); 
+    $translateProvider.fallbackLanguage('en'); 
     $translateProvider.preferredLanguage(lang);
 }])
 .config(["$provide", function($provide) {
