@@ -3787,8 +3787,8 @@ angular.module('mm.core')
         urlTemplate: '{part}/{lang}.json'
     });
     $translatePartialLoaderProvider.addPart('build/lang');
-    var lang = mmCoreConfigConstants.default_lang || 'en';
-    $translateProvider.fallbackLanguage('en'); 
+    var lang = mmCoreConfigConstants.default_lang || 'zh-cn';
+    $translateProvider.fallbackLanguage('zh-cn'); 
     $translateProvider.preferredLanguage(lang);
 }])
 .config(["$provide", function($provide) {
@@ -5154,12 +5154,12 @@ angular.module('mm.core')
         } else if (!$mmApp.isOnline()) {
             return $mmLang.translateAndReject('mm.core.networkerrormsg');
         } else {
-            protocol = protocol || 'https://';
+            protocol = protocol || 'http://';
             return checkSite(siteurl, protocol).catch(function(error) {
                 if (error.critical) {
                     return $q.reject(error.error);
                 }
-                protocol = protocol == 'https://' ? 'http://' : 'https://';
+                protocol = protocol == 'http://' ? 'http://' : 'http://';
                 return checkSite(siteurl, protocol).catch(function(secondError){
                     if (secondError.error) {
                         return $q.reject(secondError.error);
@@ -5317,7 +5317,7 @@ angular.module('mm.core')
         if (services[siteurl]) {
             return services[siteurl];
         }
-        siteurl = siteurl.replace("http://", "https://");
+        siteurl = siteurl.replace("http://", "http://");
         if (services[siteurl]) {
             return services[siteurl];
         }
@@ -5973,7 +5973,7 @@ angular.module('mm.core')
             if (url.match(/http(s)?:\/\/www\./)) {
                 url = url.replace('www.', '');
             } else {
-                url = url.replace('https://', 'https://www.');
+                url = url.replace('https://', 'http://www.');
                 url = url.replace('http://', 'http://www.');
             }
         }
